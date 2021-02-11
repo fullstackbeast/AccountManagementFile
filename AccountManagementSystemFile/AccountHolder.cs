@@ -48,6 +48,8 @@ namespace AccountManangementSystemFile
 
         public static AccountHolder TextSplitter(string accountText)
         {
+
+            //testing
             var splitted = accountText.Split("\t");
             int id = Int32.Parse(splitted[0]);
             DateTime dateOfBirth = DateTime.Parse(splitted[6]);
